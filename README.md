@@ -12,3 +12,5 @@ Setup Steps:
 
 ### Development
 Run tests with `npm run test` or `yarn run test`
+
+This app uses the [React](https://reactjs.org/) framework in conjunction with [Flux](https://facebook.github.io/flux/docs/in-depth-overview.html).
