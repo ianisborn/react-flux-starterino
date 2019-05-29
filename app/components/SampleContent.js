@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'; 
+import PropTypes from 'prop-types';
 import Button from "@material-ui/core/Button";
 import SampleActionCreators from "../actions/SampleActionCreators";
 
@@ -10,42 +10,6 @@ const SampleContent = ({ title, subtitle, text }) => {
 
   return (
     <div>
-      <div
-        style={{
-          backgroundImage: 
-            "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/hero.jpeg)",
-          height: "40vh",
-          backgroundSize: "cover",
-          backgroundPosition: "center center",
-          backgroundRepeat: "no-repeat",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: 32
-        }}
-      >
-        <div
-          className="hero-title"
-          style={{
-            fontWeight: 900,
-            fontSize: 72,
-            color: "white",
-          }}
-        >
-          Starter React Flux
-        </div>
-        <div
-        className="hero-subtitle"
-          style={{
-            fontWeight: 300,
-            fontSize: 40,
-            color: "white",
-          }}
-        >
-          Superfast React development tool
-        </div>
-      </div>
       <div style={{ padding: 32 }}>
         <div
           style={{

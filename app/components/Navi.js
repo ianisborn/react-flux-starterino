@@ -46,9 +46,6 @@ const Navi = ({ title }) => {
         >
           <ListSubheader style={{ color: "white" }}>Menu</ListSubheader>
           <ListItem component={Link} to="/" button>
-            Top
-          </ListItem>
-          <ListItem component={Link} to="/sample" button>
             Sample
           </ListItem>
         </List>
